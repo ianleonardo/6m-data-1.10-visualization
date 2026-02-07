@@ -1,0 +1,21 @@
+name: Sync Fork
+on:
+  schedule:
+    # Runs every day at midnight
+    - cron: '0,30 * * * *'
+  workflow_dispatch:
+    # Allows manual trigger from the GitHub Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grants the workflow permission to push to the repository
+    steps:
+      - name: Sync using GitHub CLI
+        run: |
+          gh repo sync $REPOSITORY -b $BRANCH_NAME
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub
+          REPOSITORY: ${{ github.repository }}
+          BRANCH_NAME: ${{ github.ref_name }}
