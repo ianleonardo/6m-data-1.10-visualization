@@ -100,6 +100,7 @@ Answer these questions to gauge your understanding:
 
 **Q1: Perception**
 *Pre-attentive processing happens in what timeframe?*
+
 A) 1-2 seconds  
 B) 200-500 milliseconds ✓  
 C) 5-10 seconds  
@@ -107,6 +108,7 @@ D) Instantly
 
 **Q2: Design - Chart Selection**
 *When comparing values across categories, which chart is best?*
+
 A) Pie chart  
 B) Line chart  
 C) Bar chart ✓  
@@ -114,6 +116,7 @@ D) Scatter plot
 
 **Q3: Design - Honest Visualization**
 *True or False: It's okay to truncate bar chart axes if it makes the chart fit better*
+
 A) True  
 B) False ✓
 
@@ -121,6 +124,7 @@ B) False ✓
 
 **Q4: Storytelling - Three Acts**
 *Which act typically contains the visualization?*
+
 A) Act 1 (Beginning)  
 B) Act 2 (Middle) ✓  
 C) Act 3 (End)  
@@ -128,6 +132,7 @@ D) All acts
 
 **Q5: Audience**
 *If presenting to an executive, you should emphasize:*
+
 A) Detailed methodology  
 B) Technical data quality issues  
 C) Business impact and decision path ✓  
