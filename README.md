@@ -1,40 +1,45 @@
-# 1.10 Data Visualization
+# 📚 Lesson 1.10: Data Visualisation & Storytelling
 
-## Dependencies
+**Theme:** Making Data Speak — turning numbers into narratives with Python
 
-Refer to the following markdown file for the respective sections of the class:
+---
 
-- [Pre-Class](./pre-class.md)
-- [Lesson](./lesson.md)
-- [Post-Class](./post-class.md)
-- [Reference](./reference.md)
+## 📅 Lesson Overview
 
-## Lesson Objectives
+| Section | Duration | Topic / Activity |
+|---------|----------|-----------------|
+| **Part 1: Data Storytelling** | 55 min | Perception, Design, and Storytelling pillars; the 3-act structure |
+| **Part 2: Matplotlib Fundamentals** | 55 min | Figure → Axes → Plot; customisation; publication-quality charts |
+| **Part 3: Seaborn for Statistical Visuals** | 55 min | Distribution plots; categorical plots; faceting |
 
-Learners will understand:
+---
 
-- Data storytelling and effective data visualization
-- Matplotlib primer
-- Statistical graphs
+## 🎯 Learning Outcomes
 
-Learners will be able to:
+By the end of this lesson, you will be able to:
 
-- Tell data stories and create effective data visualizations
-- Plot charts using Matplotlib
-- Plot statistical graphs using Seaborn
+1. **Apply** the three storytelling pillars (Perception, Design, Storytelling) to evaluate and improve visualisations.
+2. **Create** charts using Matplotlib's Figure-Axes-Plot hierarchy with proper customisation.
+3. **Use** Seaborn to produce statistical graphics appropriate for different data types and questions.
+4. **Select** the right visualisation type for a given analytical context and audience.
 
-## Lesson Plan
+---
 
-| Duration | What                    | How or Why                                               |
-| -------- | ----------------------- | -------------------------------------------------------- |
-| - 5mins  | Start zoom session      | So that learners can join early and start class on time. |
-| 20 mins  | Activity                | Recap on self-study and prework materials.               |
-| 40 mins  | Concept                 | Data storytelling and effective data visualization.      |
-|          | **1 HR MARK**           |
-| 30 mins  | Code-along              | Plot charts using Matplotlib.                            |
-| 10 mins  | Break                   |
-| 20 mins  | Code-along              | Plot charts using Matplotlib.                            |
-|          | **2 HR MARK**           |
-| 50 mins  | Code-along              | Plot statistical graphs using Seaborn.                   |
-| 10 mins  | Briefing / Q&A          | Brief on references, assignment, quiz and Q&A.           |
-|          | **END CLASS 3 HR MARK** |
+## 📂 Course Materials
+
+| Material | Description | Est. Time |
+|----------|-------------|-----------|
+| [Pre-Class](./pre-class.md) | Perception, Design, Storytelling pillars; common chart mistakes | 30–45 min |
+| [Lesson Plan](./lesson.md) | Instructor guide for the 3-hour coding session | 3 hours |
+| [Assignment](./assignment.md) | Visualisation critique, redesign challenge & self-assessment quiz | 2–3 hours |
+| [Reference](./reference.md) | Matplotlib & Seaborn cheat sheet; chart selection guide | As needed |
+
+---
+
+## 🛠️ Tools & Setup
+
+- **[VS Code](https://code.visualstudio.com)** + Python + Jupyter extensions *(recommended)*.
+- **[Google Colab](https://colab.research.google.com)** *(alternative)*.
+- **Notebook:** `notebooks/data_visualisation_lesson.ipynb` — select the `pds` kernel in VS Code.
+- **Environment:** `conda env create -f environment.yml` then `conda activate pds`.
+- **Dataset:** Located in `data/` folder within the repository.
