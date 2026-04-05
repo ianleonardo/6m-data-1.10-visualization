@@ -1,9 +1,15 @@
 # PART A: ESSENTIAL PRE-CLASS (30 minutes)
-## ⏱️ Quick Foundation Before You Walk Into Class
+## ⏱️ Quick Foundation Before Lesson 1.10
 
-**Goal:** Arrive at class with core vocabulary and concepts. No deep dives—just enough to understand WHY design matters.
+⏱️ **Estimated Duration:** 30 minutes
+**Prerequisites:** Lesson 1.9 — Advanced EDA
+
+> In Lesson 1.9 you transformed and aggregated data using groupby, pivot, melt, and time-series resampling. Now you'll learn how to *communicate* those findings visually. Data visualisation is where analysis becomes a story — this pre-class work gives you the design vocabulary to make that story clear and honest.
+
+**Goal:** Build core vocabulary and concepts before working through the Python tools. No deep dives — just enough to understand *why* design choices matter.
 
 **🎬 Watch This Video:** [Turning Data into Stories](https://youtu.be/UIhIz_cF1Ck)
+
 ---
 
 ## A.1: The Three Pillars of Visualization (10 mins)
@@ -20,7 +26,7 @@
 - Remove clutter; highlight only what matters
 - Result: Viewers understand faster with less frustration
 
-**Action for Class:** Notice how instructors remove gridlines, limit colors, and organize subplots. That's cognitive load management.
+**What to watch for in the lesson:** When you see code that removes gridlines, limits colors, or reorganizes subplots — that's cognitive load management being applied in Python.
 
 ---
 
@@ -102,7 +108,7 @@ ACT 3: END (Propose Action)
 
 ## ✅ Pre-Class Checklist (5 mins)
 
-Before walking into class, can you answer these?
+Before moving on, can you answer these?
 
 - [ ] What is pre-attentive processing? Why does it matter?
 - [ ] Name 2 mistakes that make visualizations misleading
@@ -110,21 +116,40 @@ Before walking into class, can you answer these?
 - [ ] Describe the three-act storytelling structure
 - [ ] How does your message change for different audiences?
 
-**Score: 5/5?** You're ready for class. ✓
+<details>
+<summary>💡 Suggested Answers</summary>
 
-**Missed some?** Skim that section again in the next 5 minutes.
+**Pre-attentive processing:** Your brain spots certain visual signals (colour, position, size) in 200–500 milliseconds — before you consciously look. It matters because insights that rely on pre-attentive attributes (e.g. a red bar among grey ones) are understood instantly, while insights buried in a table or a crowded chart require deliberate effort and may be missed entirely.
+
+**Two mistakes that make visualisations misleading:**
+1. Truncating a bar chart's y-axis (e.g. starting at 95 instead of 0) — makes tiny differences look dramatic.
+2. Using a 3D chart — the perspective distorts perceived area/angle and makes accurate comparison impossible.
+
+**Bar chart vs line chart:** A bar chart shows discrete, separate categories (e.g. sales per product). A line chart shows a continuous trend over time (e.g. daily revenue). Using a line chart for unrelated categories implies a connection that doesn't exist.
+
+**Three-act structure:** Act 1 — set the context ("why should you care?"). Act 2 — reveal the data insight using a visualisation. Act 3 — propose an action ("what should we do?"). The visualisation usually lives in Act 2 as the evidence behind the argument.
+
+**Audience-adjusted messaging:**
+- Executive → ROI and the decision to make (high-level only).
+- Manager → specific actions and key drivers.
+- Data team → full methodology and data quality details.
+- General public → simple language, no jargon, personal relevance.
+
+</details>
+
+**Missed some?** Skim that section again — it will make the Python lesson much more meaningful.
 
 ---
 
-## 🎯 Why This Matters for Today's Python Lesson
+## 🎯 How This Connects to the Python Lesson
 
-In today's class:
-- You'll learn **tools** (Matplotlib, Seaborn)
-- But the **principles** you just learned are why those tools work
-- When instructor adjusts colors, removes gridlines, or reorganizes plots → that's putting these principles into code
-- Everything connects to what you just read
+In Lesson 1.10 you'll work with **Matplotlib** and **Seaborn** — the two most widely used Python visualisation libraries. The principles you just reviewed are the *why* behind every code decision:
 
-**Ready? Go to class. You've got this.** 🚀
+- Choosing `plt.bar()` vs `plt.plot()` — that's the chart selection rule.
+- Calling `ax.grid(False)` or limiting the colour palette — that's cognitive load management.
+- Writing a descriptive title and annotation — that's storytelling.
+
+When you understand the principle, the code becomes a tool rather than a mystery. You're ready to begin.
 
 ---
 

@@ -1,7 +1,7 @@
 # PART B: POST-CLASS PRACTICE (2-3 hours)
-## 📋 After Class: Apply, Practice, Assess
+## 📋 Apply, Practice, Assess
 
-**Complete this AFTER your Python course lesson.**
+> ⏱️ **Estimated Time:** 2–3 hours | Complete this **after** working through the Lesson 1.10 notebook.
 
 **Goal:** Deepen learning through exercises, real-world application, and self-assessment.
 
@@ -101,65 +101,119 @@ Answer these questions to gauge your understanding:
 **Q1: Perception**
 *Pre-attentive processing happens in what timeframe?*
 
-A) 1-2 seconds  
-B) 200-500 milliseconds ✓  
-C) 5-10 seconds  
+A) 1-2 seconds
+B) 200-500 milliseconds
+C) 5-10 seconds
 D) Instantly
 
-**Q2: Design - Chart Selection**
+<details>
+<summary>💡 Answer</summary>
+
+**B) 200–500 milliseconds.** Pre-attentive processing happens faster than conscious thought — your brain detects colour, size, and position differences before you deliberately look for them. Designing for this means key insights jump out without effort.
+
+</details>
+
+---
+
+**Q2: Design — Chart Selection**
 *When comparing values across categories, which chart is best?*
 
-A) Pie chart  
-B) Line chart  
-C) Bar chart ✓  
+A) Pie chart
+B) Line chart
+C) Bar chart
 D) Scatter plot
 
-**Q3: Design - Honest Visualization**
-*True or False: It's okay to truncate bar chart axes if it makes the chart fit better*
+<details>
+<summary>💡 Answer</summary>
 
-A) True  
-B) False ✓
+**C) Bar chart.** Humans compare lengths far more accurately than angles (pie) or positions along a curve (line). Bar charts are the default for category comparisons.
 
-**Explanation:** Bar charts must start at zero to show accurate magnitude relationships. Truncating distorts viewer perception of relative sizes.
+</details>
 
-**Q4: Storytelling - Three Acts**
-*Which act typically contains the visualization?*
+---
 
-A) Act 1 (Beginning)  
-B) Act 2 (Middle) ✓  
-C) Act 3 (End)  
+**Q3: Design — Honest Visualisation**
+*True or False: It's okay to truncate bar chart axes if it makes the chart fit better.*
+
+A) True
+B) False
+
+<details>
+<summary>💡 Answer</summary>
+
+**B) False.** Bar charts must start at zero because the visual message is encoded in *length*. Truncating the axis (e.g. starting at 95 instead of 0) makes small differences look enormous and actively misleads viewers about relative magnitudes.
+
+</details>
+
+---
+
+**Q4: Storytelling — Three Acts**
+*Which act typically contains the visualisation?*
+
+A) Act 1 (Beginning)
+B) Act 2 (Middle)
+C) Act 3 (End)
 D) All acts
 
-**Q5: Audience**
-*If presenting to an executive, you should emphasize:*
+<details>
+<summary>💡 Answer</summary>
 
-A) Detailed methodology  
-B) Technical data quality issues  
-C) Business impact and decision path ✓  
+**B) Act 2 (Middle).** The visualisation is the *evidence* for your argument. Act 1 sets the context so viewers care; Act 2 reveals what the data shows; Act 3 proposes action based on that evidence.
+
+</details>
+
+---
+
+**Q5: Audience**
+*If presenting to an executive, you should emphasise:*
+
+A) Detailed methodology
+B) Technical data quality issues
+C) Business impact and decision path
 D) All data points equally
+
+<details>
+<summary>💡 Answer</summary>
+
+**C) Business impact and decision path.** Executives need enough to make a decision — not the technical details. Lead with the bottom-line insight, then briefly state what action it implies.
+
+</details>
+
+---
 
 ### Application Questions
 
 **Q6: Scenario**
-You're showing a chart revealing that customer churn increased in Q4. Your audience is a regional manager. What should your message emphasize?
+You're showing a chart revealing that customer churn increased in Q4. Your audience is a regional manager. What should your message emphasise?
 
-*Expected answer:* Specific actions they can take to address churn in their region; clear metrics showing impact; timeline for implementation.
+<details>
+<summary>💡 Expected Answer</summary>
+
+Focus on **specific actions they can take** to address churn in their region, clear metrics showing the scale of the impact, and a realistic timeline for implementation. Avoid raw methodology — managers need the "what to do" more than the "how you calculated it".
+
+</details>
+
+---
 
 **Q7: Critique**
-Look at this chart description: "A 3D pie chart comparing market share of 15 companies."
+Look at this chart description: "A 3D pie chart comparing market share of 15 companies." What principle violations do you spot?
 
-What principle violations do you spot?
+<details>
+<summary>💡 Expected Answer</summary>
 
-*Expected answer:* 
-- 3D distorts angles (visual integrity violation)
-- 15 slices are hard to compare (cognitive load violation)
-- Should use bar chart instead (chart selection)
+- **3D distorts angles** — perspective makes slices at the back appear smaller than slices at the front even when they have the same value (visual integrity violation).
+- **15 slices are impossible to distinguish** — humans can only accurately compare about 5–7 items (cognitive load violation).
+- **Recommended fix:** Replace with a horizontal bar chart, sorted high → low, with values labelled on each bar.
+
+</details>
+
+---
 
 ### Scoring
 
-**6-7 correct:** Excellent foundation. Ready for advanced topics in Part C.  
-**4-5 correct:** Good understanding. Review the sections you missed; you're still ready for Python lessons.  
-**<4 correct:** Review Parts A carefully; focus on the concepts you missed before moving to Part C.
+**6–7 correct:** Excellent foundation. Ready for advanced practice.
+**4–5 correct:** Good understanding. Review the sections you missed before moving on.
+**< 4 correct:** Re-read Part A carefully, focusing on the concepts you found hardest.
 
 ---
 
@@ -167,9 +221,9 @@ What principle violations do you spot?
 
 ### Reflection Prompt
 
-Write 200-300 words (or discuss with a colleague) on:
+Write 200–300 words on — or share your thoughts in the **#peer-reviews** Discord channel:
 
-**"How will I use these visualization principles in my work?"**
+**"How will I use these visualisation principles in my work?"**
 
 Consider:
 - Your field/industry
@@ -208,5 +262,7 @@ After completing Part B:
 - [ ] Can structure a data insight using three-act narrative
 
 **Checked all boxes?** You've integrated the theory into practice. ✓
+
+Share your critique from B.2 or your reflection from B.4 in **#peer-reviews** on Discord to get feedback from fellow learners. For questions, post in **#questions**.
 
 ---
