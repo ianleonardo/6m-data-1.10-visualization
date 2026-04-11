@@ -43,3 +43,5 @@ By the end of this lesson, you will be able to:
 - **Notebook:** `notebooks/data_visualisation_lesson.ipynb` — select the `pds` kernel in VS Code.
 - **Environment:** `conda env create -f environment.yml` then `conda activate pds`.
 - **Dataset:** Located in `data/` folder within the repository.
+
+- TEST
