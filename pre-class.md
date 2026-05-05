@@ -8,7 +8,7 @@
 
 **Goal:** Build core vocabulary and concepts before working through the Python tools. No deep dives — just enough to understand *why* design choices matter.
 
-**🎬 Watch This Video:** [Turning Data into Stories](https://youtu.be/UIhIz_cF1Ck)
+**🎬 Watch This Video:** [The Architecture of Insight Data Visualisation & Storytelling](https://www.youtube.com/watch?v=-SaBG0sEtRA)
 
 ---
 
